@@ -1,0 +1,44 @@
+* {
+  margin: 0;
+}
+
+:root {
+  --cl-White: hsl(0, 0%, 100%);
+  --cl-LightGray: hsl(212, 45%, 89%);
+  --cl-GrayishBlue: hsl(220, 15%, 55%);
+  --cl-DarkBlue: hsl(218, 44%, 22%);
+  --ff-primary: "Unbounded", cursive;
+}
+
+body {
+  background-color: var(--cl-LightGray);
+  height: 100vh;
+  font-size: 15px;
+  font-family: var(--ff-primary);
+  display: grid;
+  place-items: center;
+}
+
+.cardQr {
+  /* display: grid; */
+  /* place-items: center; */
+  /* display: flex; */
+  /* flex-direction: column; */
+  /* justify-content: center; */
+  /* align-items: center; */
+  margin: 1rem auto;
+  padding: 1rem;
+  background-color: var(--cl-White);
+  border-radius: 1rem;
+  width: 20rem;
+  gap: 2rem;
+}
+
+.cardQr__image {
+  width: 20rem;
+  border-radius: 0.5rem;
+}
+
+h1 {
+  color: var(--cl-GrayishBlue);
+}
