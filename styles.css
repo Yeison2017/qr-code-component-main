@@ -20,25 +20,33 @@ body {
 }
 
 .cardQr {
-  /* display: grid; */
-  /* place-items: center; */
-  /* display: flex; */
-  /* flex-direction: column; */
-  /* justify-content: center; */
-  /* align-items: center; */
-  margin: 1rem auto;
   padding: 1rem;
   background-color: var(--cl-White);
   border-radius: 1rem;
-  width: 20rem;
+  width: 19.5rem;
   gap: 2rem;
 }
 
 .cardQr__image {
-  width: 20rem;
+  width: 19.5rem;
   border-radius: 0.5rem;
 }
 
-h1 {
+.cardQR__content {
+  display: grid;
+  padding: 1.5rem 1rem;
+  gap: 20px;
+}
+
+.cardQR__title {
+  color: var(--cl-DarkBlue);
+  font-size: 1.1rem;
+  text-align: center;
+  line-height: 22px;
+}
+
+.cardQR__info {
   color: var(--cl-GrayishBlue);
+  font-size: 0.8rem;
+  text-align: center;
 }
